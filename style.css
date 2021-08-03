@@ -5,6 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #000;
   color: #fff;
+  overflow-x: hidden;
 }
 
 /*HEADER START*/
@@ -51,7 +52,7 @@ header .nav ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
 }
@@ -92,7 +93,7 @@ section {
 
 .text1,
 .text2 {
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .text1 h1,
@@ -321,9 +322,10 @@ footer .email {
 
 @media (max-width: 768px) {
   header {
-    width: 100%;
+    width: 360px;
     height: auto;
   }
+  
 
   header .logo {
     margin-left: 30px;
@@ -342,7 +344,18 @@ footer .email {
     font-weight: bold;
     text-align: center;
   }
+.image img{
 
+  width: 360px !important;
+}
+.image2 img{
+
+  width: 360px !important;
+}
+.section4 figure{
+  
+  width: 360px !important;
+}
 
 
   header .nav ul {
@@ -372,7 +385,7 @@ footer .email {
   }
   .text1 h3, .text2 h3 {
     font-size: 1.5rem;
-    margin-top: 36px;
+    
 
   }
 
