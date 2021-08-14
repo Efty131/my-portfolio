@@ -321,14 +321,18 @@ footer .email {
 /*FOOTER END*/
 
 @media (max-width: 768px) {
+
+  body{
+    overflow-x: hidden;
+  }
   header {
     width: 360px;
     height: auto;
   }
-  
+
 
   header .logo {
-    margin-left: 30px;
+    margin-left: 10px;
     padding: 20px;
   }
 
@@ -338,24 +342,27 @@ footer .email {
 
   header .nav ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(36, 33, 33);
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
   }
-.image img{
 
-  width: 360px !important;
-}
-.image2 img{
+  .image img {
 
-  width: 360px !important;
-}
-.section4 figure{
-  
-  width: 360px !important;
-}
+    width: 360px !important;
+  }
+
+  .image2 img {
+
+    width: 360px !important;
+  }
+
+  .section4 figure {
+    margin-left: -70px;
+    width: 250px !important;
+  }
 
 
   header .nav ul {
@@ -377,15 +384,21 @@ footer .email {
   #check:checked~ul {
     left: 0;
   }
-  .text1 h1, .text2 h1{
+
+  .text1 h1,
+  .text2 h1 {
     font-size: 2.5rem;
   }
-  .text1 p, .text2 p{
+
+  .text1 p,
+  .text2 p {
     font-size: 1.3rem;
   }
-  .text1 h3, .text2 h3 {
+
+  .text1 h3,
+  .text2 h3 {
     font-size: 1.5rem;
-    
+
 
   }
 
